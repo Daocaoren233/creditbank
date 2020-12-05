@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet-path: /creditbank
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/credit?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  jackson:
+    default-property-inclusion: non_null
+  mvc:
+    static-path-pattern: /static/**
+
+
+
