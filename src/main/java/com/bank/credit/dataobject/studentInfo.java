@@ -24,14 +24,19 @@ public class studentInfo {
 
     private String studentPhone;
 
+    /**学生专业*/
     private String studentMajor;
 
+    /**学生累计学分*/
     private BigDecimal studentCredit = new BigDecimal(0);
 
+    /**学生累计学习时长*/
     private BigDecimal studentTime = new BigDecimal(0);
 
+    /**学生诚信值*/
     private BigDecimal studentHonesty = new BigDecimal(100);
 
+    /**学生申请学分值*/
     private BigDecimal studentNeedCredit = new BigDecimal(0);
 
 }
