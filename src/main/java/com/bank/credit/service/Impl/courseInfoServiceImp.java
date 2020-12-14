@@ -1,22 +1,28 @@
 package com.bank.credit.service.Impl;
 
 import com.bank.credit.dataobject.courseInfo;
+import com.bank.credit.repository.courseInfoRepository;
 import com.bank.credit.service.courseInfoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class courseInfoServiceImp implements courseInfoService {
+    @Autowired
+    private courseInfoRepository courseInfoRepository;
+
     @Override
-    public Page<courseInfo> findAll() {
-        return null;
+    public Page<courseInfo> findAll(Pageable pageable) {
+        return courseInfoRepository.findAll(pageable);
     }
 
     @Override
     public List<courseInfo> findUpAll() {
-        return null;
+        return courseInfoRepository.findAll();
     }
 
     @Override

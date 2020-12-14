@@ -2,11 +2,12 @@ package com.bank.credit.service;
 
 import com.bank.credit.dataobject.courseInfo;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
 public interface courseInfoService {
-    Page<courseInfo> findAll();
+    Page<courseInfo> findAll(Pageable pageable);
 
     List<courseInfo> findUpAll();
 
