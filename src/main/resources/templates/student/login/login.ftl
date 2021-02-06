@@ -1,52 +1,48 @@
 <html>
 <#include "../../common/header.ftl">
 <body>
-<div class="container-fluid">
-<#--    <div class="container">-->
-<#--        <form role="form" method="post" action="/creditbank/student/login/save">-->
-<#--            <div class="form-group">-->
-<#--                <label for="exampleInputEmail1">学号</label>-->
-<#--                <input name="studentId" type="text" class="form-control">-->
-<#--            </div>-->
 
-<#--            <div class="form-group">-->
-<#--                <label for="exampleInputEmail1">密码</label>-->
-<#--                <input name="passWord" type="password" class="form-control">-->
-<#--            </div>-->
-<#--            <div class="row">-->
-<#--                <div class="col-sm-10 column"></div>-->
-<#--                <div class="col-sm-2 column">-->
-<#--                    <button type="submit" class="btn btn-default">提交</button>-->
-<#--                </div>-->
-<#--            </div>-->
-<#--        </form>-->
+
+<div class="login">
+    <div class="login-head">
+        登录
+    </div>
+<#--    <div class="login-input">-->
+<#--        学号：-->
+<#--        <input><br>-->
+<#--        密码：-->
+<#--        <input><br>-->
+<#--        <button></button>-->
+<#--        <button></button>-->
+
 <#--    </div>-->
-    <div class="row clearfix" style="margin-top: 100px">
-        <div class="col-sm-4 column"></div>
-        <div class="col-sm-4 column">
-            <h3>商家登录:</h3>
-            <form role="form" method="post" action="/creditbank/student/login/save">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">学号</label>
-                    <input name="studentId" type="text" class="form-control" value="" readonly="readonly">
-                </div>
-
-                <div class="form-group" >
-                    <label for="exampleInputEmail1">密码</label>
-                    <input name="passWord" type="password" class="form-control" value="" readonly="readonly">
-                </div>
-                <div class="row">
-                    <div class="col-sm-10 column"></div>
-                    <div class="col-sm-2 column">
-                        <button type="submit" class="btn btn-default">提交</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <div class="login-input">
+        <form role="form" method="post" action="/creditbank/student/login/save">
+            <div class="form-group">
+                &nbsp;学号:
+                <input name="studentId" type="text" class="form-control" value="">
+            </div>
+            <div class="form-group" >
+                &nbsp;密码:
+                <input name="passWord" type="password" class="form-control" value="">
+            </div>
+            &nbsp;&nbsp;
+            <button type="reset" class="btn btn-default">重置</button>
+            &nbsp;&nbsp;
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </div>
+    <div class="login-tail">
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a>
+            新用户注册
+        </a>
+    </div>
 
 </div>
 
-</div>
-<#include "../../common/tailer.ftl">
 </body>
+<script src="../../static/plugins/jquery/JavaScript.min.js"></script>
+<script src="../../static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </html>

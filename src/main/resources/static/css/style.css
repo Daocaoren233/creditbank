@@ -6,3 +6,309 @@
     line-height: 25px;
     font-size: 20px;
 }
+.head{
+    padding: 0;
+    margin: 0;
+     background-color: #28a4c9;
+    border-bottom: solid 1px grey;
+    /* border-top: solid 1px grey; */
+    height: 200px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 40px;
+    font-family: "宋体";
+    color: white;
+}
+.home-body1{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 2px gray;
+    height: 330px;
+
+}
+.home-body2{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 2px gray;
+    height: 460px;
+    font-size: 30px;
+    font-family: "宋体";
+}
+.home-body3{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 1px gray;
+    height: 460px;
+    font-size: 30px;
+    font-family: "宋体";
+}
+.home-img{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    /*border: solid 2px red;*/
+    height: 250px;
+    width: 250px;
+
+}
+.home-context{
+    float: left;
+    margin-top: 40px;
+    margin-left: 80px;
+    /* border: solid 1px red; */
+    height: 250px;
+    width: 500px;
+    line-height: 83px;
+    font-size: 40px;
+    font-family: "宋体";
+}
+.recorde-body{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 1px gray;
+    height: 960px;
+    font-size: 30px;
+    font-family: "宋体";
+}
+.course-imgb{
+    margin-top: 80px;
+    margin-left: 250px;
+    height: 300px;
+    width: 500px;
+    /*border: solid 1px red;*/
+}
+.course-search{
+    margin-top: 40px;
+    margin-left: 150px;
+    height: 80px;
+    width: 700px;
+    border: solid 1px gray;
+    line-height: 80px;
+    font-size: 40px;
+    font-family: "宋体";
+    color: gray;
+}
+.course-recommend{
+    height: 800px;
+    width: 950px;
+    /*border: solid 1px gray;*/
+}
+.course-example{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 2px gray;
+    height: 240px;
+}
+.course-example-img{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    /*border: solid 2px red;*/
+    height: 180px;
+    width: 180px;
+}
+.course-example-context{
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    /*border: solid 1px red;*/
+    height: 180px;
+    width: 550px;
+    line-height: 83px;
+    font-size: 40px;
+    font-family: "宋体";
+    color: rgb(14, 77, 125);
+}
+.bank-context{
+    position: absolute;
+    top: 370px;
+    left: 100px;
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    line-height: 680px;
+    font-size: 35px;
+    font-family: "宋体";
+}
+.leaf1 {
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    width: 400px;
+    height: 400px;
+    background-color: #A0DE21;
+    border-radius: 80px 200px 0px 200px;
+}
+.leaf2 {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    width: 400px;
+    height: 400px;
+    background-color: #A0DE21;
+    border-radius: 200px 80px 200px 0px;
+}
+.leaf3 {
+    position: absolute;
+    left: 1px;
+    top: 400px;
+    width: 400px;
+    height: 400px;
+    background-color: #A0DE21;
+    border-radius: 200px 0px 200px 80px;
+}
+.leaf4 {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    width: 400px;
+    height: 400px;
+    background-color: #A0DE21;
+    border-radius: 0px 200px 80px 200px;
+}
+.bank-img{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    top: 75px;
+    left: 85px;
+    /*border: solid 1px red;*/
+}
+.bank-example-img{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 250px;
+    width: 250px;
+    /*border: solid 1px red;*/
+}
+.bank-example-context{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: solid 1px gray;
+    height: 1180px;
+    font-size: 30px;
+    font-family: "宋体";
+}
+.mine-context{
+    padding: 0px;
+    /*border-top: solid 1px gray;*/
+    /*margin-top: 40px;*/
+    font-family: "宋体";
+    font-size: 40px;
+    line-height: 150px;
+}
+.mine-example{
+    margin: 0px;
+    height: 150px;
+    border-bottom: solid 1px gray;
+}
+.mine-tap{
+    line-height: 120px;
+    margin-top: 70px;
+    text-align: center;
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+    height: 120px;
+}
+.mine-tap a{
+    text-decoration: none;
+    color: black;
+    line-height: 120px;
+    font-size: 40px;
+}
+.start-head{
+    margin-top: 0px;
+    height: 78px;
+    /*border: solid 3px black;*/
+    color: white;
+    line-height: 78px;
+    font-size: 35px;
+    background-color: rgba(141, 131, 131,0.3);
+}
+.start-icon{
+    float: left;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 160px;
+    height: 180px;
+    /*border: solid 3px black;*/
+    line-height: 80px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.start-icon img{
+    height: 160px;
+    width: 160px;
+    border-radius: 20%;
+
+}
+.start-time{
+    float: right;
+    margin-right: 30px;
+    /*font-size: 40px;*/
+}
+.login{
+    margin-top: 300px;
+    margin-left: 95px;
+    height: 650px;
+    width: 800px;
+    border: solid 2px gray;
+    border-radius: 10%;
+}
+.login-head{
+    height: 100px;
+    line-height: 150px;
+    font-size: 70px;
+    font-family: "宋体";
+    font-weight: bold;
+    /*border: solid 2px black;*/
+    text-align: center;
+}
+.login-input{
+    margin-top: 50px;
+    height: 400px;
+    /*border: solid 2px black;*/
+    font-size: 50px;
+    font-family: "宋体";
+    font-weight: bold;
+    line-height: 130px;
+}
+.login-tail{
+    height: 200px;
+}
+.login-tail a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.form-control{
+    /*margin-left: 150px;*/
+    margin-top: 20px;
+    margin-right: 80px;
+    float: right;
+    width: 500px;
+    height: 80px;
+    font-size: 45px;
+    font-family: "宋体";
+    font-weight: bold;
+    line-height: 80px;
+    color: #636060;
+    border: solid 1px gray;
+}
+.btn-default{
+    height: 90px;
+    width: 200px;
+    background-color: #28a4c9;
+    font-size: 40px;
+    font-family: "宋体";
+    font-weight: bold;
+    line-height: 80px;
+    color: white;
+}
+
